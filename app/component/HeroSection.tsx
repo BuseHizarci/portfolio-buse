@@ -33,7 +33,7 @@ const HeroSection = () => {
               Download CV
             </button>
             <button className="px-6 py-3  rounded-full bg-gradient-to-br from-violet-500 to-blue-600 text-white hover:bg-gradient-to-br hover:from-blue-500 hover:to-violet-600">
-              Download CV
+              See Projects
             </button>
           </div>
         </div>
