@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/pages/about/about.js", "app/pages/newpage.js", "app/component/BoxAnimations.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/pages/about/about.js", "app/pages/newpage.js", "app/components/BoxAnimations.jsx", "app/components/TabBotton.jsx"],
   "exclude": ["node_modules"]
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const navLinks = [
-    { title: "About", path: "/" },
+    { title: "About", path: "/about" },
     { title: "Say Hello !", path: "/contact" },
   ];
   return (
