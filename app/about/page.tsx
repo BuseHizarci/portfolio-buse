@@ -2,7 +2,7 @@
 import React, { useTransition, useState } from "react";
 import TabBotton from "../components/TabBotton";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 const About = () => {
   const TAB_DATA = [
     {
@@ -337,6 +337,7 @@ const About = () => {
             </a>
           </li>
         </ol>
+        <Footer />
       </section>
     </>
   );

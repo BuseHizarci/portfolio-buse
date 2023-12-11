@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="w-full position-fixed top-0 left-0 z-10 bg-opacity-100">
       <div className="flex flex-wrap justify-between items-center mx-auto p-2  ">
-        <Link href="/" className="text-3xl font-semibold">
+        <Link href="/homepage" className="text-3xl font-semibold">
           <HomeIcon className="h-7 w-7" />
         </Link>
         <div className="mobile-menu block md:hidden">
