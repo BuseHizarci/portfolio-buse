@@ -88,21 +88,21 @@ const About = () => {
     //     </ul>
     //   ),
     // },
-    {
-      title: "Certifications",
-      id: "certifications",
-      content: (
-        <ul>
-          {" "}
-          <li>HTML5</li>
-          <li>CSS , SCSS , Tailwind , Bootstrap , Figma</li>
-          <li>JavaScript , TypeScript</li>
-          <li> ReactJs , NextJs</li>
-          <li>GIT , GitHub , Bitbucket</li>
-          <li> Jira , SDLC , Agile , Kanban , Scrum </li>
-        </ul>
-      ),
-    },
+    //   {
+    //     title: "Certifications",
+    //     id: "certifications",
+    //     content: (
+    //       <ul>
+    //         {" "}
+    //         <li>HTML5</li>
+    //         <li>CSS , SCSS , Tailwind , Bootstrap , Figma</li>
+    //         <li>JavaScript , TypeScript</li>
+    //         <li> ReactJs , NextJs</li>
+    //         <li>GIT , GitHub , Bitbucket</li>
+    //         <li> Jira , SDLC , Agile , Kanban , Scrum </li>
+    //       </ul>
+    //     ),
+    //   },
   ];
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
@@ -157,6 +157,7 @@ const About = () => {
                 {" "}
                 Skills{" "}
               </TabBotton>
+
               <TabBotton
                 selectTab={() => handleTabChange("education")}
                 active={tab === "education"}
@@ -165,14 +166,15 @@ const About = () => {
                 Education{" "}
               </TabBotton>
 
-              <TabBotton
+              {/* <TabBotton
                 selectTab={() => handleTabChange("certification")}
                 active={tab === "certification"}
               >
                 {" "}
                 Certification
-              </TabBotton>
+              </TabBotton> */}
             </div>
+
             <div>
               <div className="p-5 ">
                 {" "}

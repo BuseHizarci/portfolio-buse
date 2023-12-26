@@ -23,14 +23,22 @@ const HeroSection = () => {
             </div>
           </RoughNotationGroup>
           <p className="text-gray-500 text-lg lg:text-xl pt-8 pb-8 font-mono">
-            I enjoy turning complex challenges into user-friendly solutions.
-            Based in London, I'm a Front-End Developer with expertise in
-            JavaScript, CSS3, HTML5, ReactJS, and Git.
+            I thrive on simplifying intricate problems by creating accessible
+            solutions. Located in London, I specialize in Front-End Development,
+            showcasing proficiency in JavaScript, CSS3, HTML5, ReactJS, Next Js
+            and Git.
           </p>
 
           <div>
             <button className=" px-6 py-3 mr-4 rounded-full bg-gradient-to-br from-blue-500 to-violet-600 text-white hover:bg-gradient-to-br hover:from-violet-500 hover:to-blue-600">
-              Download CV
+              <button className="btn"></button>
+              <a
+                href="/buse-hizarcı-resume.pdf"
+                download
+                className="text-white hover:text-white"
+              >
+                Download PDF
+              </a>{" "}
             </button>
             <button className="px-6 py-3  rounded-full bg-gradient-to-br from-violet-500 to-blue-600 text-white hover:bg-gradient-to-br hover:from-blue-500 hover:to-violet-600">
               See Projects
