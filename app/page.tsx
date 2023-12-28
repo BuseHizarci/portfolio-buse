@@ -11,7 +11,6 @@ export default function Home() {
           className="absolute inset-1 -z-10 animate-fade-in bg-slate-800  "
           quantity={300}
         />
-
         <Navbar />
         <HeroSection />
         <Footer />
