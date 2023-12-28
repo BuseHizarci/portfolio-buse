@@ -1,13 +1,15 @@
 import React from "react";
-import Particles from "../components/particles";
+import Navbar from "../components/Navbar";
+import Spacer from "../components/Spacer";
+import Footer from "../components/Footer";
+import ContactHero from "../components/Contact-hero";
 const Contact = () => {
   return (
     <div>
-      {" "}
-     
-      <h3>buse</h3>
-      <p>contact me</p>
-      console.log("buse")
+      <Navbar />
+      <Spacer />
+      <ContactHero />
+      <Footer />
     </div>
   );
 };

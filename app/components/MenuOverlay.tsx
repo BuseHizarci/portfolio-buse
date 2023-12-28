@@ -4,6 +4,7 @@ import Link from "next/link";
 interface LinkItem {
   path: string;
   title: string;
+  total: number;
 }
 
 interface MenuOverlayProps {

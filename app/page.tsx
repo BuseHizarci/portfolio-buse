@@ -5,7 +5,7 @@ import Particles from "./components/particles";
 import Spacer from "./components/Spacer";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 ">
+    <main className="flex max-h-screen flex-col items-center ">
       <Particles
         className="absolute inset-1 -z-10 animate-fade-in bg-slate-800"
         quantity={300}
@@ -15,7 +15,6 @@ export default function Home() {
       <HeroSection />
       <Spacer />
       <Footer />
-      <Spacer />
     </main>
   );
 }
