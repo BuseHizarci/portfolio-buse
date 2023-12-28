@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaMedium, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaMedium, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 const Footer = () => {
   return (
@@ -25,6 +26,10 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin className="text-2xl hover:text-slate-400" />
+        </a>
+
+        <a href="https://www.instagram.com/busehizarci/">
+          <FaInstagram className="text-2xl hover:text-slate-400" />
         </a>
       </div>
     </footer>

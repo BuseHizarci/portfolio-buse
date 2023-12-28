@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaMailBulk, FaMedium, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaMailBulk,
+  FaMedium,
+  FaPhone,
+  FaTwitter,
+} from "react-icons/fa";
 
 const socials = [
   {
@@ -15,6 +22,7 @@ const socials = [
     label: "Medium",
     handle: "@bhzrc",
   },
+
   {
     icon: <FaMailBulk size={20} />,
     href: "mailto:buse.application@gmail.com",
