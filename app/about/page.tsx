@@ -4,6 +4,12 @@ import TabBotton from "../components/TabBotton";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Spacer from "../components/Spacer";
+
+interface TabData {
+  title: string;
+  id: string;
+  content: React.ReactNode;
+}
 const About = () => {
   const TAB_DATA = [
     {
@@ -27,16 +33,16 @@ const About = () => {
         <ul className="list-disc pl-3 p-3 lg:text-lg pb-7">
           <li className="mb-4">
             <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
-              Bachelor's Degree{" "}
+              Bachelor`s Degree
             </time>
             <h3 className="text-lg font-semibold text-slate-500">
-              Economics / 2015 - 2020{" "}
+              Economics / 2015 - 2020
             </h3>{" "}
           </li>
 
           <li>
             <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
-              ICF Accredited Coaching Program{" "}
+              ICF Accredited Coaching Program
             </time>
             <h3 className="text-lg font-semibold text-slate-500">
               Coaching Program / 2019{" "}
@@ -125,7 +131,7 @@ const About = () => {
               A B O U T M E{" "}
             </h2>
             <p className="text-lg md:text-lg lg:text-2xl p-1">
-              Hello, I'm Buse HIZARCI, a dedicated Front-End Developer based in
+              Hello, I`m Buse HIZARCI, a dedicated Front-End Developer based in
               London, UK, leveraging the power of{" "}
               <span className="font-medium text-teal-300 hover:text-purple-700 focus-visible:text-teal-300">
                 React.js,{" "}

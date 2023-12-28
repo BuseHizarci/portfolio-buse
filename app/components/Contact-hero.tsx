@@ -44,7 +44,10 @@ const ContactHero = () => {
             <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
               <div className="grid w-full  gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
                 {socials.map((s) => (
-                  <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                  <div
+                    key={s.href}
+                    className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                  >
                     <Link
                       href={s.href}
                       target="_blank"

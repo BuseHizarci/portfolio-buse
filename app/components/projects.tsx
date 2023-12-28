@@ -18,7 +18,6 @@ interface ProjectCardProps {
   number: string;
 }
 
-
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   link,
@@ -59,6 +58,7 @@ const Projects: React.FC = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {projectData.projects.map((project, idx) => (
             <ProjectCard
+              key={idx}
               title={project.title}
               link={project.link}
               imgUrl={project.imgUrl}
