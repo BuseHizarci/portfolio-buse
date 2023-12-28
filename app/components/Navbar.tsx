@@ -9,7 +9,6 @@ import {
   MoonIcon,
 } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import { useTheme } from "next-themes";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -18,7 +17,6 @@ const Navbar = () => {
     { title: "About", path: "/about" },
     { title: "Say Hello !", path: "/contact" },
   ];
-  const { theme, setTheme } = useTheme();
 
   return (
     <nav className="w-full position-fixed top-0 left-0 z-10 bg-opacity-100">
@@ -26,15 +24,6 @@ const Navbar = () => {
         <Link href="/" className="text-3xl font-semibold">
           <HomeIcon className="h-7 w-7 " />
         </Link>
-        <button
-          aria-label="Toggle Dark Mode"
-          type="button"
-          className="group rounded-full mr-4 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-900/90 dark:ring-teal-500/50 dark:hover:ring-white/20"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        >
-          {" "}
-          <MoonIcon className="h-9  w-7  " />
-        </button>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button

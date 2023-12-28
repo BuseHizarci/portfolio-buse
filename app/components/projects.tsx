@@ -18,6 +18,7 @@ interface ProjectCardProps {
   number: string;
 }
 
+
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   link,
