@@ -25,9 +25,9 @@ const socials = [
 
   {
     icon: <FaMailBulk size={20} />,
-    href: "mailto:buse.application@gmail.com",
+    href: "mailto:buse.application[at]gmail.com",
     label: "Email",
-    handle: "buse.hzrci@gmail.com",
+    handle: "buse.hzrci[at]gmail.com",
   },
 ];
 const ContactHero = () => {
