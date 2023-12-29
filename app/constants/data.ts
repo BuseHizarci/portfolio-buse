@@ -3,13 +3,13 @@ const projectData = {
   name: "Manu Arora",
   designation: "Front end Developer",
   avatarUrl: "/avatar.png",
-  email: "buse.hzrci@gmail.com",
+  email: "buse.hzrci[at]gmail.com",
   address: "London / UK",
   projects: [
     {
       title: "Portfolio",
-      link: "www.busehizarci.tech",
-      
+      link: "https://www.busehizarci.tech",
+
       imgUrl: "/images/portfolio.png",
     },
     {
