@@ -98,7 +98,7 @@ const Experience = () => {
               </li>
               <li>
                 Contributed to the creation of a new, modern UI/UX design system
-                for the company's e-commerce platform using ReactJs.
+                for the company`s e-commerce platform using ReactJs.
               </li>
             </ul>
           </p>
