@@ -32,13 +32,13 @@ const socials = [
 ];
 const ContactHero = () => {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section className=" bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-gray-800">
         <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact!
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className=" bg-gray-900">
         <div className="max-w-6xl mx-auto  md:grid-cols-2 gap-8 py-20 pb-40">
           <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
@@ -46,7 +46,7 @@ const ContactHero = () => {
                 {socials.map((s) => (
                   <div
                     key={s.label}
-                    className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow "
                   >
                     <Link
                       href={s.href}
