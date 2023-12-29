@@ -39,7 +39,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta key={index} {...tag} />
         ))}
       </Head>
-      <main className="dark:bg-gray-800 w-full">
+      <main className="bg-slate-800 w-full">
         <Navbar />
         <div>{children}</div>
         <Footer />

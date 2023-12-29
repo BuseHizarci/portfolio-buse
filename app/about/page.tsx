@@ -32,7 +32,7 @@ const About = () => {
       content: (
         <ul className="list-disc pl-3 p-3 lg:text-lg pb-7">
           <li className="mb-4">
-            <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
+            <time className="mb-1 pb-3 text-xl font-normal leading-none text-slate-100">
               Bachelor`s Degree
             </time>
             <h3 className="text-lg font-semibold text-slate-500">
@@ -41,7 +41,7 @@ const About = () => {
           </li>
 
           <li>
-            <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
+            <time className="mb-1 pb-3 text-xl font-normal leading-none text-slate-100">
               ICF Accredited Coaching Program
             </time>
             <h3 className="text-lg font-semibold text-slate-500">
@@ -54,7 +54,7 @@ const About = () => {
             </h2>{" "}
           </li>
           <li>
-            <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
+            <time className="mb-1 pb-3 text-xl font-normal leading-none text-slate-100">
               Front-end Bootcamp{" "}
             </time>
             <h3 className="text-lg font-semibold text-slate-500">
@@ -66,7 +66,7 @@ const About = () => {
             </h2>{" "}
           </li>
           <li>
-            <time className="mb-1 pb-3 text-xl font-normal leading-none text-gray-400 dark:text-slate-100">
+            <time className="mb-1 pb-3 text-xl font-normal leading-none text-slate-100">
               React Front-end Bootcamp{" "}
             </time>
             <h3 className="text-lg font-semibold text-slate-500">

@@ -10,7 +10,7 @@ const Experience = () => {
         className="absolute inset-0 z-[-10] animate-fade-in bg-slate-800"
         quantity={900}
       />
-      <ol className="container mx-auto relative border-s border-purple-200 dark:border-gray-700">
+      <ol className="container mx-auto relative border-s border-gray-700">
         <h2 className="text-3xl md:text-3xl lg:text-4xl text-center p-4 text-purple-700">
           {" "}
           W O R K E X P E R I E N C E
@@ -74,7 +74,7 @@ const Experience = () => {
           <h3 className="text-lg font-semibold text-slate-400 ">
             May 2021 - September 2021
           </h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-slate-400">
+          <p className="mb-4 text-base font-normal  text-slate-400">
             <ul className="list-disc p-5 text-lg sm:text-2xl">
               <li>
                 <a
@@ -131,7 +131,7 @@ const Experience = () => {
           <h3 className="text-lg font-semibold text-slate-400 ">
             January 2021 - Present
           </h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-slate-400">
+          <p className="mb-4 text-base font-normal text-slate-400">
             <ul className="list-disc p-5 text-lg sm:text-2xl">
               <li>
                 Organized and be part of coaching programs for the corporates.

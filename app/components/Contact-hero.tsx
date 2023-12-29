@@ -27,26 +27,26 @@ const socials = [
     icon: <FaMailBulk size={20} />,
     href: "mailto:buse.application[at]gmail.com",
     label: "Email",
-    handle: "buse.hzrci[at]gmail.com",
+    handle: "buse.hzrci@gmail.com",
   },
 ];
 const ContactHero = () => {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
+    <section className=" bg-slate-800">
+      <div className="max-w-6xl mx-auto h-48 bg-slate-800">
         <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact!
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+      <div className=" bg-slate-900">
         <div className="max-w-6xl mx-auto  md:grid-cols-2 gap-8 py-20 pb-40">
-          <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+          <div className=" bg-slate-900">
             <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
               <div className="grid w-full  gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
                 {socials.map((s) => (
                   <div
                     key={s.label}
-                    className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+                    className="max-w-sm p-6 bg-slate-800 border border-slate-800 rounded-lg shadow "
                   >
                     <Link
                       href={s.href}
