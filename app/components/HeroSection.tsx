@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
       <div className="col-span-7 place-self-center  ">
         <h1 className="text-gray-600 font-bold sm:text-5xl text-3xl lg:text-5xl font-mono">
           <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-800">
-            Hello I'm
+            Hello I`m
           </div>
         </h1>
         <RoughNotationGroup show={true}>

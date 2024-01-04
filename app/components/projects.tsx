@@ -1,6 +1,6 @@
 import React from "react";
 import projectData from "../constants/data";
-
+import Image from "next/image";
 interface Project {
   title: string;
   link: string;
@@ -24,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <a href={link} className="block shadow-2xl mb-8">
       <div className="relative overflow-hidden">
         <div className="h-40 md:h-72 object-cover">
-          <img
+          <Image
             src={imgUrl}
             alt={title}
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
