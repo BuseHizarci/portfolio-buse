@@ -4,7 +4,7 @@ import Image from "next/image";
 import { RoughNotationGroup } from "react-rough-notation";
 import { BoxAnimation } from "./BoxAnimations";
 import { useRouter } from "next/navigation";
-const HeroSection = () => {
+const HeroSection: React.FC = () => {
   const router = useRouter();
 
   const redirect = (url: string) => {
@@ -12,11 +12,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-12 max-w-6xl mx-auto py-16 ">
-      <div className="col-span-7 place-self-center">
+    <section className="grid grid-cols-1 lg:grid-cols-12 max-w-6xl mx-auto   ">
+      <div className="col-span-7 place-self-center  ">
         <h1 className="text-gray-600 font-bold sm:text-5xl text-3xl lg:text-5xl font-mono">
           <div className="text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-800">
-            Hello I`m
+            Hello I'm
           </div>
         </h1>
         <RoughNotationGroup show={true}>
@@ -29,10 +29,9 @@ const HeroSection = () => {
           </div>
         </RoughNotationGroup>
         <p className="text-gray-500 text-lg lg:text-xl pt-8 pb-8 font-mono">
-          I thrive on simplifying intricate problems by creating accessible
-          solutions. Located in London, I specialize in Front-End Development,
-          showcasing proficiency in JavaScript, CSS3, HTML5, ReactJS, Next Js
-          and Git.
+          Front-end developer specializing in responsive web development using
+          JavaScript ReactJS and NextJS.
+          <br />
         </p>
 
         <div>
@@ -51,7 +50,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="col-span-5 lg:col-span-5 lg:col-start-8 pt-12 mt-4 lg:mt-0 place-self-center">
+      <div className=" lg:col-span-5 lg:col-start-8 pt-12 mt-4 lg:mt-0 place-self-center hidden md:block">
         <Image
           src="/images/ImageBuse.jpeg"
           alt="image-buse"
