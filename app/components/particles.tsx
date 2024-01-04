@@ -31,7 +31,6 @@ export default function Particles({
       context.current = canvasRef.current.getContext("2d");
     }
     initCanvas();
-    animate();
     window.addEventListener("resize", initCanvas);
 
     return () => {
@@ -39,18 +38,11 @@ export default function Particles({
     };
   }, []);
 
-  useEffect(() => {
-    onMouseMove();
-  }, [mousePosition.x, mousePosition.y]);
+  useEffect(() => {}, [mousePosition]);
 
-  useEffect(() => {
-    initCanvas();
-  }, [refresh]);
+  useEffect(() => {}, [refresh]);
 
-  const initCanvas = () => {
-    resizeCanvas();
-    drawParticles();
-  };
+  const initCanvas = () => {};
 
   const onMouseMove = () => {
     if (canvasRef.current) {
