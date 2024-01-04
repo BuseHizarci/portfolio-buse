@@ -2,12 +2,7 @@
 import Link from "next/link";
 import NavLinks from "./NavLinks";
 import React, { useState } from "react";
-import {
-  Bars3Icon,
-  HomeIcon,
-  XMarkIcon,
-  MoonIcon,
-} from "@heroicons/react/24/solid";
+import { Bars3Icon, HomeIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
 const Navbar = () => {
@@ -19,10 +14,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full position-fixed top-0 left-0 z-10 bg-opacity-100 bg-slate-800 pt-2">
-      <div className="flex flex-wrap justify-between items-center mx-auto p-2  ">
+    <nav className="w-full position-fixed top-0 left-0 z-10 bg-opacity-100 bg-slate-800 p-11">
+      <div className="flex flex-wrap justify-between items-center mx-auto">
         <Link href="/" className="text-3xl font-semibold">
-          <HomeIcon className="h-7 w-7 " />
+          <HomeIcon className="h-7 w-7" />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -41,8 +36,8 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden  md:block md:w-auto md:order-1">
-          <ul className="flex p-4 md:p-0 md:flex-row ">
+        <div className="menu hidden  md:block md:w-auto ">
+          <ul className="flex  md:p-0 md:flex-row md:space-x-8 ">
             {navLinks.map((link) => (
               <NavLinks key={link.title} href={link.path} title={link.title} />
             ))}

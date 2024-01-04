@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <main className="flex max-h-screen flex-col items-center justify-center ">
         <Particles
-          className="absolute inset-1 -z-10 animate-fade-in bg-slate-800  "
-          quantity={300}
+          className="absolute inset-0 -z-10 animate-fade-in bg-slate-800"
+          quantity={100}
         />
         <Navbar />
         <HeroSection />
