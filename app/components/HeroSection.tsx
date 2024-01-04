@@ -55,8 +55,8 @@ const HeroSection: React.FC = () => {
           src="/images/buseimage.jpg"
           alt="image-buse"
           width={300}
-          height={300}
-          className="rounded-full"
+          height={200}
+          className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
         />
       </div>
     </section>
