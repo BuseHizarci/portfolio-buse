@@ -9,7 +9,6 @@ const projectData = {
     {
       title: "Portfolio",
       link: "https://www.busehizarci.tech",
-
       imgUrl: "/images/portfolio.png",
     },
     {
