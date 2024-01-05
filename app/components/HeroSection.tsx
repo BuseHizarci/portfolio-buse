@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
 
       <div className=" lg:col-span-5 lg:col-start-8 pt-12 mt-4 lg:mt-0 place-self-center hidden md:block">
         <Image
-          src="/images/buseimage.jpg"
+          src="/images/buseimage2.png"
           alt="image-buse"
           width={300}
           height={200}
