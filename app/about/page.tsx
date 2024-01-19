@@ -80,36 +80,6 @@ const About = () => {
         </ul>
       ),
     },
-    // {
-    //   title: "Experience",
-    //   id: "experience",
-    //   content: (
-    //     <ul>
-    //       {" "}
-    //       <li>HTML5</li>
-    //       <li>CSS , SCSS , Tailwind , Bootstrap , Figma</li>
-    //       <li>JavaScript , TypeScript</li>
-    //       <li> ReactJs , NextJs</li>
-    //       <li>GIT , GitHub , Bitbucket</li>
-    //       <li> Jira , SDLC , Agile , Kanban , Scrum </li>
-    //     </ul>
-    //   ),
-    // },
-    //   {
-    //     title: "Certifications",
-    //     id: "certifications",
-    //     content: (
-    //       <ul>
-    //         {" "}
-    //         <li>HTML5</li>
-    //         <li>CSS , SCSS , Tailwind , Bootstrap , Figma</li>
-    //         <li>JavaScript , TypeScript</li>
-    //         <li> ReactJs , NextJs</li>
-    //         <li>GIT , GitHub , Bitbucket</li>
-    //         <li> Jira , SDLC , Agile , Kanban , Scrum </li>
-    //       </ul>
-    //     ),
-    //   },
   ];
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
